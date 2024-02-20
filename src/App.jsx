@@ -15,8 +15,8 @@ function App() {
   const handleClick = (e) => {
     e.preventDefault();
     console.log({
-      event: "ctaClick",
-      cta: "button",
+      event: "subscribed_for_newsletter",
+      cta: "subscibe",
       variant: visitor === 0 ? "variantA" : "variantB",
     });
   };
@@ -32,14 +32,14 @@ function App() {
             <div className=" absolute top-[35%] left-[15%]">
               <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white">
                 <span className=" block font-light mb-1.5">On Big Sales</span>{" "}
-                5-15 years girls old
+                5-15 years old girls clothing
               </h1>
             </div>
           ) : (
             <div className=" absolute top-[35%] left-[15%]">
               <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-black">
                 <span className=" block font-light mb-1.5">On Big Sales</span>{" "}
-                5-15 years girls old
+                5-15 years old girls clothing
               </h1>
               <button className=" text-lg bg-red-700 hover:bg-transparent border-[1px] outline-red-700 border-red-700 py-1.5 px-3.5 text-white hover:text-red-700 rounded-md mt-4">
                 Buy Now!
